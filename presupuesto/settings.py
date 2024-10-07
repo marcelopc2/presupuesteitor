@@ -32,7 +32,7 @@ DEBUG = os.getenv('DEBUG', 'True') == 'True'
 if DEBUG:
     ALLOWED_HOSTS = []
 else:
-    ALLOWED_HOSTS = ['tu-dominio-railway.app'] 
+    ALLOWED_HOSTS = ['presupuesteitor-production.up.railway.app'] 
     
 CORS_ALLOW_ALL_ORIGINS = True
 
