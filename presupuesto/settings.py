@@ -30,6 +30,8 @@ DEBUG = os.getenv('DEBUG', 'True') == 'True'
 ALLOWED_HOSTS = ['https://presupuesteitor-production.up.railway.app', '.railway.app'] 
     
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = ['https://presupuesteitor-production.up.railway.app', '.railway.app']
+CSRF_COOKIE_SECURE = True
 
 
 # Application definition
