@@ -1,0 +1,44 @@
+# Archivos del sistema operativo
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Archivos de entorno virtual
+venv/
+env/
+ENV/
+*.env
+*.env.*
+
+# Archivos del IDE y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Configuraciones de dependencias de Python
+*.egg-info/
+*.egg
+.eggs/
+
+# Archivos compilados de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Archivos de migración
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Archivos de logs y caché
+*.log
+*.out
+*.pid
+*.swp
+*.swo
+*.tmp
+*.DS_Store
