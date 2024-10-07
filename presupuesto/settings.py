@@ -28,9 +28,9 @@ SECRET_KEY = SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', "Probando por mientras"
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
 if DEBUG:
-    ALLOWED_HOSTS = ['*', 'presupuesteitor-production.up.railway.app']
+    ALLOWED_HOSTS = []
 else:
-    ALLOWED_HOSTS = ['presupuesteitor-production.up.railway.app', '*'] 
+    ALLOWED_HOSTS = ['https://presupuesteitor-production.up.railway.app', '.railway.app'] 
     
 CORS_ALLOW_ALL_ORIGINS = True
 
