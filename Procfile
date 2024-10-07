@@ -1,1 +1,1 @@
-web: gunicorn presupuesto.wsgi --log-file 
+web: gunicorn presupuesto.wsgi --log-file=-
