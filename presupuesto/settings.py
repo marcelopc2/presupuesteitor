@@ -27,12 +27,10 @@ SECRET_KEY = SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', "Probando por mientras"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-# ALLOWED_HOSTS = ['*']
-
 if DEBUG:
-    ALLOWED_HOSTS = []
+    ALLOWED_HOSTS = ['*', 'presupuesteitor-production.up.railway.app']
 else:
-    ALLOWED_HOSTS = ['presupuesteitor-production.up.railway.app'] 
+    ALLOWED_HOSTS = ['presupuesteitor-production.up.railway.app', '*'] 
     
 CORS_ALLOW_ALL_ORIGINS = True
 
